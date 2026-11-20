@@ -11,6 +11,7 @@ type Tool = 'edit' | 'upscale' | 'remove-bg'
 
 const EDIT_MODELS = [
   { value: 'qwen-edit', label: 'Qwen Edit' },
+  { value: 'qwen-edit-uncensored', label: 'Qwen Edit Uncensored' },
   { value: 'qwen-image-2-edit', label: 'Qwen Image 2 Edit' },
   { value: 'qwen-image-2-pro-edit', label: 'Qwen Image 2 Pro Edit' },
   { value: 'flux-2-max-edit', label: 'Flux 2 Max Edit' },
